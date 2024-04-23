@@ -255,6 +255,9 @@ ul li a:hover{
     }
 }
 @media (width < 750px){
+    .action__btns .btn{
+        font-size: 0.7rem
+    }
     nav .check{
         display: block;
     }
