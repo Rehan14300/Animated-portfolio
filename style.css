@@ -39,28 +39,9 @@ nav{
     left: 0;
     z-index: 99;
     box-shadow: 0 5px 5px rgba(79,105,192,0.6);
-    animation: smoke 5s ease-in-out 0s infinite alternate;
+    
 }
-@keyframes smoke{
-  0%{
-     box-shadow: 0 5px 5px rgba(79,105,192,0.6);
-    
-  }
-  25%{
-     box-shadow: 0 16px 16px 8px rgba(99,67,140,0.9);
-  }
-  50%{
-     box-shadow: 0 15px 15px 2px rgba(79,105,192,0.6);
-  }
-  75%{
-    
-    box-shadow: 0 10px 10px 5px rgba(241,65,224,0.8);
-    
-  }
-  100%{
-     box-shadow: 0 15px 15px 4px rgba(0,0,0,0.6);
-  }
-}
+
 .nav-content{
     max-width: var(--max-width);
     margin: auto;
@@ -82,7 +63,7 @@ nav .header .logo span{
     color: var(--bg-purple);
 }
 nav .header .logo:hover{
-    text-Shadow: 5px 4px 5px rgba(0,0,0,0.6);
+    text-Shadow: 5px 4px 5px rgba(0,0,0,0.6);
     color: var(--heading-color);
 
 
@@ -170,20 +151,12 @@ ul li a:hover{
     transition: 0.4s;
     cursor: pointer;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
-    animation: btn-bounce 1.2s ease-in-out 0s infinite alternate;
-    position:relative;
+    
 }
 
     /* ANIMATIONS-FOR-BUTTONS */
 
-    @keyframes btn-bounce{
-      0%{
-        top: -1rem;
-      }
-      100%{
-        top: 0;
-      }
-    }
+    
 
 
 .btn1{
@@ -215,24 +188,7 @@ ul li a:hover{
     width: min(25rem, 90%);
     border-radius: 100%;
     box-shadow: 10px 12px 13px rgba(79,105,192,0.6);
-    animation: bouncing__box 1.2s ease-in-out 0s  infinite alternate;
-    position:relative;
-}
-@keyframes bouncing__box {
     
-    0%{
-        top:-7rem;
-    }
-   
-    
-    /* 50%{
-       top: 10%;
-    }
-     */
-    
-    100%{
-         top:0;
-    }
     
 }
 
@@ -280,7 +236,7 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
-        height:100vh;
+        
     }
    
     .action__btns{
