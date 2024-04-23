@@ -250,11 +250,11 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
-        min-height: calc(100vh - 85px);
+        height: calc(100vh - 85px);
         
     }
     .content{
-        min-height:calc(100vh - 85px);
+        height:calc(100vh - 85px);
     }
     .action__btns .btn{
         padding: 1rem 1rem;
