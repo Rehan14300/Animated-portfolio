@@ -39,7 +39,7 @@ nav{
     left: 0;
     z-index: 99;
     box-shadow: 0 5px 5px rgba(79,105,192,0.6);
-    background-color: red;
+    background-color: var(--txt-color);
     
 }
 
