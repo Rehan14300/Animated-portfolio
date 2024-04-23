@@ -28,7 +28,7 @@ nav .check{
     font-size: 2rem;
     color: var(--bg-purple);
     cursor: pointer;
-    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 #checkbox{
     display:none;
