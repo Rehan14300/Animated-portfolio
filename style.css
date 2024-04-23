@@ -127,7 +127,6 @@ ul li a:hover{
 
 }
 .content{
-    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,8 +264,6 @@ ul li a:hover{
         right: -100%;
         top: 85px;
         background-color: rgba(79,105,192,1);
-        
-        
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -290,7 +287,7 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
-        height:100vh;
+        
     }
    
     .action__btns{
