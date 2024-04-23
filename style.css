@@ -39,7 +39,7 @@ nav{
     left: 0;
     z-index: 99;
     box-shadow: 0 5px 5px rgba(79,105,192,0.6);
-    background-color: #ffffff;
+    background-color: var(--BGCOLOR);
     
 }
 
@@ -200,8 +200,15 @@ ul li a:hover{
     box-shadow: 10px 12px 13px rgba(79,105,192,0.6);
     position: relative;
     z-index:98;
-    
-    
+    animation: img-bounce 3s ease-in-out 0s infinite alternate;   
+}
+@keyframes img-bounce{
+    0%{
+        top: -1.5rem
+    }
+    100%{
+        top: 0;
+    }
 }
 
 
