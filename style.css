@@ -73,7 +73,7 @@ ul{
     align-items: center;
     gap: 1rem;
     list-style: none;
-    transform: left .3s;
+    transition: left .3s;
 }
 ul li a{
     padding: 0.5rem 1rem;
@@ -195,6 +195,8 @@ ul li a:hover{
 
 
                                                             /* media-queries */
+
+
 @media (width < 835px){
     ul li a {
         font-size: 0.7rem;
