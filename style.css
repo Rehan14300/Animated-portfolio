@@ -74,7 +74,7 @@ nav .header .logo{
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--heading-color);
-    transform: .3s;
+    transition: .3s;
     border: 2px solid transparent;
     cursor: pointer;
     text-Shadow: 4px 3px 4px rgba(0,0,0,0.6);
