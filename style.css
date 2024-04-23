@@ -250,14 +250,6 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
-        max-height: calc(100% - 85px);
-        
-    }
-    .content{
-        max-height:calc(100% - 85px);
-    }
-    .action__btns .btn{
-        padding: 1rem 1rem;
     }
    
     .action__btns{
