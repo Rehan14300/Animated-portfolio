@@ -160,7 +160,7 @@ ul li a:hover{
     /* ANIMATIONS-FOR-BUTTONS */
 @keyframes bounce{
     0%{
-        top: -1.3rem;
+        top: -1rem;
     }
     100%{
         top: 0
@@ -250,11 +250,19 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
+        min-height: calc(100vh - 85px);
         
+    }
+    .content{
+        min-height:calc(100vh - 85px);
+    }
+    .action__btns .btn{
+        padding: 1rem 1rem;
     }
    
     .action__btns{
         margin: auto;
     }
+    
 }
 
