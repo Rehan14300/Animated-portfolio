@@ -153,7 +153,7 @@ ul li a:hover{
     cursor: pointer;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
     position: relative;
-    animation: bounce 3s ease-in-out 0s infinite alternate;
+    animation: bounce 1.5s ease-in-out 0s infinite alternate;
     
 }
 
