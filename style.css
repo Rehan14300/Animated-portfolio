@@ -204,7 +204,7 @@ ul li a:hover{
 }
 @keyframes img-bounce{
     0%{
-        top: -1.5rem
+        top: -3rem
     }
     100%{
         top: 0;
