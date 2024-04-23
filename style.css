@@ -152,12 +152,20 @@ ul li a:hover{
     transition: 0.4s;
     cursor: pointer;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    position: relative;
+    animation: bounce 3s ease-in-out 0s infinite alternate;
     
 }
 
     /* ANIMATIONS-FOR-BUTTONS */
-
-    
+@keyframes bounce{
+    0%{
+        top: -0.5rem;
+    }
+    100%{
+        top: 0
+    }
+}
 
 
 .btn1{
