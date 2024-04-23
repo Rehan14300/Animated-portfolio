@@ -82,7 +82,8 @@ nav .header .logo span{
     color: var(--bg-purple);
 }
 nav .header .logo:hover{
-    text-Shadow: 5px 4px 5px rgba(0,0,0,0.6);
+    text-Shadow: 5px 4px 5px rgba(0,0,0,0.6)
+;
     color: var(--heading-color);
 
 
@@ -176,14 +177,22 @@ ul li a:hover{
 
     /* ANIMATIONS-FOR-BUTTONS */
 
-    @keyframes btn-bounce{
-      0%{
-        top: -1rem;
-      }
-      100%{
-        top: 0;
-      }
-    }
+    
+@keyframes btn-bounce{
+    
+  0%{
+    
+    top: -1rem;
+    
+  }
+    
+  100%{
+    
+    top: 0;
+    
+  }
+    
+}
 
 
 .btn1{
@@ -221,7 +230,7 @@ ul li a:hover{
 @keyframes bouncing__box {
     
     0%{
-        top:-7rem;
+        top:-10rem;
     }
    
     
