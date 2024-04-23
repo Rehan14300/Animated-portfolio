@@ -254,6 +254,9 @@ ul li a:hover{
     }
 }
 @media (width < 750px){
+    .content{
+        height:100vh;
+    }
     nav .check{
         display: block;
     }
@@ -287,6 +290,7 @@ ul li a:hover{
     }
     .image{
         grid-area: 1/1/2/2;
+        height:100vh;
         
     }
    
