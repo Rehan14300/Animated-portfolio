@@ -73,20 +73,16 @@ nav{
 nav .header .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--bg-purple);
+    color: var(--heading-color);
     transform: .3s;
     border: 2px solid transparent;
     cursor: pointer;
+    text-Shadow: 4px 3px 4px rgba(0,0,0,0.6);
 } 
 nav .header .logo span{
     color: var(--bg-purple);
 }
-nav .header .logo:hover{
-    text-Shadow: 5px 4px 5px rgba(0,0,0,0.6);
-    color: var(--heading-color);
 
-
-}
 ul{
     display: flex;
     align-items: center;
